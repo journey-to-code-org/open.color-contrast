@@ -1,0 +1,35 @@
+{
+  "name": "@journey-to-code/open-color-contrast",
+  "version": "1.0.0",
+  "description": "Dependency-free WCAG relative-luminance and contrast-ratio helpers for sRGB colors.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "color",
+    "contrast",
+    "wcag",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
